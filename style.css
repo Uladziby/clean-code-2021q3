@@ -141,7 +141,7 @@ label[for="new-task"] {
     transition: transform 200ms ease-in;
 }
 /* .delete-btn img:hover  */
-#remove_img {
+#remove_img:hover {
     transform: rotateZ(0);
 }
 
@@ -159,12 +159,12 @@ label[for="new-task"] {
 }
 
 /* ul li.editMode input[type="text"]  */
-.list__task_input .editMode {
+.list.editMode > .list__task_input {
     display: inline-block;
     width: 224px;
 }
 
 /* ul li.editMode label  */
-.list__task_input >.task {
+.editMode.list .task {
     display: none;
 }
