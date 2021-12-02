@@ -28,9 +28,6 @@ body {
   margin: 0 auto 0;
 }
 .todo__new-task {
-  width: 56%;
-  display: inline-block;
-  flex-grow: 1;
   display: flex;
 }
 
@@ -102,6 +99,7 @@ label[for="new-task"] {
 }
 .todo__new-task_input {
   width: 318px;
+  flex-grow: 1;
 }
 
 /* Task list */
@@ -139,7 +137,7 @@ label[for="new-task"] {
 }
 
 /* Completed */
-.todo__completedTasks > .task {
+.todo__completedTasks >.list> .task {
   text-decoration: line-through;
   color: #888;
 }
